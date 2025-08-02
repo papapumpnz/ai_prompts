@@ -1,0 +1,14 @@
+Create a deeply detailed, advanced JSON context profile for this image.
+
+This JSON should be structured to capture all interpretable visual, spatial, semantic, and atmospheric data, suitable for high-fidelity image manipulation or reconstruction. Your goal is to generate a machine-readable representation that encapsulates the entire scene with nuance, hierarchy, and precision.
+
+Include the following in the JSON output:
+
+1.  **objects**: List every identifiable object. For each, include its label, description (color, texture, material), position, relative size, and relationships to other objects.
+2.  **environment**: Describe the setting, time of day, lighting (source, direction, color), weather, and background.
+3.  **people** (if any): Detail each person's estimated age/gender, expression, pose, clothing, and activity.
+4.  **composition**: Note the camera angle, framing, focal depth, visual balance, and color palette.
+5.  **symbolism_and_story**: Describe any implied narrative, emotional cues, or symbolic elements.
+6.  **metadata**: Infer the image style (e.g., photo, illustration), and potential artistic influences.
+
+Output the JSON as a single structured object. Prioritize accuracy and depth to serve as a comprehensive blueprint for generative models, ensuring all positional and compositional data can be preserved during object or environment swaps.
